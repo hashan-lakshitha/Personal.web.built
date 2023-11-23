@@ -1,3 +1,4 @@
+import { SkillsComponent } from './pageComponent/skills/skills.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -8,7 +9,8 @@ import { MainHomeComponent } from './pageComponent/main-home/main-home.component
 import { SocialMediaComponent } from './pageComponent/social-media/social-media.component';
 import { ExampleComponent } from './pageComponent/example/example.component';
 import { AboutComponent } from './pageComponent/about/about.component';
-
+import { FooterComponent } from './pageComponent/footer/footer.component';
+import { ProjectComponent } from './pageComponent/project/project.component';
 
 
 @NgModule({
@@ -18,14 +20,12 @@ import { AboutComponent } from './pageComponent/about/about.component';
     MainHomeComponent,
     SocialMediaComponent,
     ExampleComponent,
-    AboutComponent
+    AboutComponent,
+    FooterComponent,
+    ProjectComponent,
+    SkillsComponent
 
-
-
-
-
-
-  ],
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
