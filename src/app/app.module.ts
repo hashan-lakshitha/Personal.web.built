@@ -14,6 +14,7 @@ import { ProjectComponent } from './pageComponent/project/project.component';
 import { ContactComponent } from './pageComponent/contact/contact.component';
 import { EductionComponent } from './pageComponent/eduction/eduction.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule
 
 
   ],
