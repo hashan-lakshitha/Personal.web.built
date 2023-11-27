@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './pageComponent/navbar/navbar.component';
 import { MainHomeComponent } from './pageComponent/main-home/main-home.component';
-import { SocialMediaComponent } from './pageComponent/social-media/social-media.component';
 import { ExampleComponent } from './pageComponent/example/example.component';
 import { AboutComponent } from './pageComponent/about/about.component';
 import { FooterComponent } from './pageComponent/footer/footer.component';
@@ -15,20 +14,25 @@ import { ContactComponent } from './pageComponent/contact/contact.component';
 import { EductionComponent } from './pageComponent/eduction/eduction.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MainComponent } from './main/main.component';
+import { HomeComponent } from './pageComponent/home/home.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     MainHomeComponent,
-    SocialMediaComponent,
+HomeComponent,
     ExampleComponent,
     AboutComponent,
     FooterComponent,
     ProjectComponent,
     SkillsComponent,
     ContactComponent,
-    EductionComponent
+    EductionComponent,
+      MainComponent
 
    ],
   imports: [

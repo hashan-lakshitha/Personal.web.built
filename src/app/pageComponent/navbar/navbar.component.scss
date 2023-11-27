@@ -1,62 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Vina+Sans&display=swap');
-
 .navbar{
-  z-index: 1;
+  width: 100%;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  background-color: var(--color-navy);
 }
-.navbar-brand{
-  font-size: 40px;
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Vina Sans', sans-serif;
-  color:#000000;
+.logo{
+  width: 70px;
+  height: 70px;
+}
+.nav-link{
+  color: aliceblue;
 }
 
-.navbar-nav{
-  margin-right: 100px;
-  .nav-item{
-    margin-right: 50px;
-    .nav-link{
-      color: #000000;
-    }
-  }
+.container-fluid{
+  // margin: 0;
+  margin-right: 50px !important;
+
 }
+
 
 @media only screen and (max-width: 600px) {
-  .navbar-brand{
-   display: none;
-  }
-  .menu-icon{
-    img{
-      width: 40px;
-    }
-  }
-
-}
-@media only screen and (max-width: 992px) {
-  .navbar-brand{
-    font-size: 30px;
-  }
-.navbar{
-  height: 215px;
-  top: -30px;
-}
-}
-@media only screen and (min-width: 992px) {
-  .navbar-brand{
-    font-size: 50px;
-  }
-.navbar{
-  height: 215px;
-  top: -30px;
-}
-.navbar-nav{
-  margin-right: 0;
-  .nav-item{
-    margin-right: 50px;
-    .nav-link{
-      color: #000000;
-    }
-  }
-}
-}
 
 
+.navbar-icon{
+  width: 30px;
+  height: 30px;
+}
+
+}

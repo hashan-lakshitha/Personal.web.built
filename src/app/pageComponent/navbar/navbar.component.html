@@ -1,22 +1,29 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+<nav class="ui segment navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand">HASHAN WALAUWATTA</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="menu-icon"><img src="https://img.icons8.com/ios-filled/50/menu--v1.png"></span></button>
+    <a class="navbar-brand" href="#">
+      <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114 66"><path d="M3.81,15H20.86L15.92,19.8V35.47a18.22,18.22,0,0,0,2,.22V20.17l3.95-3.92.73.65-3.73,3.7V35.72l1.19.11c1.86.17,3.66.26,5.4.26a48.58,48.58,0,0,0,6.5-.37V19L27.49,15H44.25l-5,4.82V57.59l4.39,3.92H27l5-4.25V41.89a27.24,27.24,0,0,1-6.28.72,62.75,62.75,0,0,1-6.31-.32l-.5,0V57.59l6,6.89H6.06l-.94-1H22.81l-4.93-5.4V41.42l1.05.07c3.2.24,5.5.36,6.93.36a17.61,17.61,0,0,0,6.06-.94V39.6a54.43,54.43,0,0,1-8,.51c-1.62,0-2.8,0-3.55-.11l-3.66-.32c-.15,0-.42,0-.84-.08v18l4.65,3.92H3.81l4.86-4.25V41.42a5.8,5.8,0,0,0-4.86,2.39l-.76-.36a7.65,7.65,0,0,1,5.62-2.94V39.17a7.66,7.66,0,0,0-6.42,3.08l-.54-.36q2.15-5.22,7-6.17V19.41Zm42,2-3.7,3.59v37l6,6.89H29.27l-.91-1H46L41.16,58V20.24l4-4Z" style="stroke:#000;stroke-linejoin:round;stroke-width:0.75px"/><path d="M110.82,2.54a44.5,44.5,0,0,0-7.59,11.06q-2.57,5.52-6,18.24L90.92,54.69l.72,2.83,4.46,4H79.57l4.75-4L77.9,34.27,71.66,57l6.24,7.47H59.37l-.73-1H75.9l-5.44-6.27,6.86-24.81-1.2-4.31L68.69,55.27l.58,2.25,4.24,4H56.94l4.93-4-10.55-38L45.88,15H63.61l-5,4.57L67,49.43,68.22,45l-7-24.95,3.3-2.93.83.58-3,2.68,6.35,22.81L76.45,15h3.41l9.42,34.16L90.44,45,82.1,15h1l7.8,28.25L94.32,31q3.2-11.52,3.2-15a6.81,6.81,0,0,0-3.63-6.09A72.67,72.67,0,0,0,103,6.21,42,42,0,0,0,110.24,2ZM113,5.3a42.79,42.79,0,0,0-7.16,10.81,108.52,108.52,0,0,0-5.75,16.82L93.67,56.36l7,8.12H82l-.83-1H98.42l-5.87-6.78,6.67-24.3a110.57,110.57,0,0,1,5.69-16.62,49,49,0,0,1,7.26-11.12Z" style="stroke:#000;stroke-linejoin:round;stroke-width:0.75px"/></svg>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span><img class="navbar-icon" src="https://img.icons8.com/ios-filled/50/menu--v1.png"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" [routerLink]="['']">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About As</a>
+          <a class="nav-link active" aria-current="page" [routerLink]="['skill']">SKILLS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          <a class="nav-link active" aria-current="page" [routerLink]="['project']">PROJECT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" [routerLink]="['about']">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" [routerLink]="['contact']">CONTACT</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-
