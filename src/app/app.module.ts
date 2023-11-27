@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './pageComponent/navbar/navbar.component';
-import { MainHomeComponent } from './pageComponent/main-home/main-home.component';
 import { ExampleComponent } from './pageComponent/example/example.component';
 import { AboutComponent } from './pageComponent/about/about.component';
 import { FooterComponent } from './pageComponent/footer/footer.component';
@@ -23,7 +22,6 @@ import { HomeComponent } from './pageComponent/home/home.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    MainHomeComponent,
 HomeComponent,
     ExampleComponent,
     AboutComponent,
